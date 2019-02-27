@@ -4,7 +4,7 @@ const defaultParser = (data) => {
 
 
 const normalize = ({
-  array,
+  array=[],
   key='id',
   parser=defaultParser,
 }) => {
